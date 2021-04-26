@@ -1,8 +1,53 @@
+@font-face
+{
+    font-family: 'Shrikhand';
+    src: url('styles/fonts/shrikhand/Shrikhand-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Roboto';
+    src: url('styles/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h2 /*  logo et titres */
 {
-    font-family: shrikhand;
+    font-family: 'Shrikhand', arial, sans-serif;
 } 
 p /* texte */
 {
-    font-family: roboto
+    font-family: 'Roboto', arial, sans-serif;
 }
+
+body
+{
+    width: 100%;
+}
+
+#logo
+{
+    justify-content:center;
+}
+
+#article1
+{
+    height: 30vh;
+    justify-content: center;
+}
+
+#gps
+{
+    display: flex;
+}
+
+#article1-bloc
+{
+    line-height: 1px;
+}
+
+#article1-button
+{
+    width: 30px;
+}
+
