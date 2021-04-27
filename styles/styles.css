@@ -19,35 +19,58 @@ p /* texte */
 {
     font-family: 'Roboto', arial, sans-serif;
 }
+a
+{
+    text-decoration: none;
+}
 
 body
 {
-    width: 100%;
+    width: auto;
+    text-align: center;
 }
 
-#logo
+/* #article1
 {
-    justify-content:center;
-}
-
-#article1
-{
-    height: 30vh;
-    justify-content: center;
-}
+    
+} */
 
 #gps
 {
     display: flex;
+    justify-content: center;
+    background: #e1e1e1;
+    font-weight: bold;
+    margin-top: 7px;
+    border-top-style: outset;
+    border-color: #cfcfcf;
+}
+
+#article1 .fas 
+{
+	line-height: 48px;
+	margin-right: 20px;
 }
 
 #article1-bloc
 {
-    line-height: 1px;
+    background: #f5f2f2;
+    padding-top: 20px;
+    height: 80vh;
+    font-size: 1.2em;
 }
 
-#article1-button
+#article1-bloc p
 {
-    width: 30px;
+    margin-bottom: 42px;
+    color: #898787;
 }
 
+#article1-bloc span
+{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 16px;
+    background: #B90D9ECC;
+    color: white;
+}
