@@ -99,7 +99,7 @@ body
     margin-left: 26px;
 }
 
-#article2-content span 
+#article2 span 
 {
 	position: absolute;
 	left: 2%;
@@ -110,7 +110,7 @@ body
 	padding: 3px 11px 3px 11px;
 }
 
-#article2-content .fas
+#article2 .fas
 {
 	font-size: 1.5em;
 	opacity: 0.5;
@@ -118,12 +118,12 @@ body
 	position: absolute;
 }
 
-#article2-content p
+#article2 p
 {
     font-weight: bold;
 }
 
-#article2-bloc1, #article2-bloc2, #article2-bloc3 
+.article2-bloc
 {
 	background: #f4f4f4;
 	margin: 4vh 6vw;
@@ -136,7 +136,7 @@ body
 	box-shadow: 0px 5px 10px 2px #d8d7d7;
 }
 
-#article2-bloc1:hover , #article2-bloc2:hover , #article2-bloc3:hover 
+.article2-bloc:hover
 {
 	background-color: #e4d5f6;
 	box-shadow: 0px 5px 10px 2px #a6a3a3;
