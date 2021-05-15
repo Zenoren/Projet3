@@ -10,6 +10,9 @@
     src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+
+    font-family: "Roboto-h2";
+    src: url('fonts/roboto/RobotoCondensed-BoldItalic.ttf') format('truetype');
 }
 
 h2 /*  logo et titres */
@@ -17,21 +20,42 @@ h2 /*  logo et titres */
     font-family: "Shrikhand", arial, sans-serif;
 } 
 
+h3
+{
+    margin: 0;
+}
+
 p /* texte */
 {
     font-family: "Roboto", arial, sans-serif;
+    margin: 0;
 }
 
 a
 {
     text-decoration: none;
     color: black;
+    margin: 0;
+}
+
+#header-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+}
+
+#return-arrow
+{
+    font-size: 1.3em;
+    margin-left: -17vw;
 }
 
 #logo
 {
-	margin-top: 2vh;
-    text-align: center;
+    font-size: 3em;
 }
 
 body
@@ -43,4 +67,130 @@ body
 #container
 {
     width: 100%;
+}
+
+.img-header img 
+{
+	height: 59vw;
+	width: 100%;
+	object-fit: cover;
+}
+
+.carte-restaurant 
+{
+	padding: 1vh 5vw;
+	background: #f4f4f4;
+	border-radius: 41px 33px 0 0;
+	position: relative;
+	margin-top: -6vh;
+}
+
+#titre-restaurant
+{
+    display: flex;
+    align-items: center;
+}
+
+#titre-restaurant .heart
+{
+	position: absolute;
+	right: 2em;
+    font-size: 1.4em;
+}
+
+#titre-restaurant h2
+{
+    font-family: "Roboto-h2", arial, sans-serif;
+    font-size: 2em;
+}
+
+.titre-menu
+{
+	padding: 2vh 0vw 1.5vh 0vw;
+	border-bottom: 3px solid #99E2D0;
+	width: 2.6em;
+}
+
+.menu-content 
+{
+    display: flex;
+    flex-direction: column;
+    height: 2.4em;
+	background: white;
+	margin: 3vh 0vw;
+	padding: 1em 1em;
+	border-radius: 15px;
+	box-shadow: 0px 3px 6px 2px #d5d4d4;
+	cursor: pointer;
+	overflow-y: hidden;
+}
+
+.menu-content span
+{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 1.2em;
+}
+
+.menu-content p
+{
+    overflow-x: clip;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 87%;
+    font-size: 0.9em;
+}
+
+.menu-content span
+{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+section .commander 
+{
+	color: #FFF;
+	font-size: 1.4em;
+	background: linear-gradient(#FF79DA 5%, #9356DC 95%);
+	padding: 0.7em;
+	border-radius: 36px;
+	width: 8.5em;
+	margin: 2vh 0vw 7vh 15vw;
+	cursor: pointer;
+	box-shadow: 3px 3px 3px #D0D0D0;
+}
+
+footer
+{
+    background: #333232;
+    padding: 21px 0px 8px 20px;
+}
+
+footer #image
+{
+    width: 6em;
+    filter: invert(1);
+}
+
+footer img
+{
+    width: 100%;
+}
+
+footer ul
+{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer .fas
+{
+    font-size: 0.7em;
+    margin-right: 1em;
+    width: 1em;
 }
