@@ -45,12 +45,15 @@ a
     align-items: center;
     height: 9vh;
     width: 100%;
+    position: relative;
 }
 
-#return-arrow
+#return-arrow 
 {
-    font-size: 1.3em;
-    margin-left: -17vw;
+	font-size: 1.3em;
+	position: absolute;
+	left: 4vw;
+	top: 1em;
 }
 
 #logo
@@ -197,11 +200,7 @@ footer .fas
 
 @media screen and (min-width: 600px)
 {
-    #return-arrow 
-    {
-        margin-left: -28vw;
-    }
-
+    
     section .commander 
     {
         width: 50%;
@@ -224,6 +223,14 @@ footer .fas
 
 @media screen and (min-width: 1280px)
 {
+    #container
+    {
+        max-width: 1440px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+
     .img-header img 
     {
         height: 43vw;
