@@ -69,7 +69,7 @@ body
 {
 	background: #f4f4f4;
     padding-top: 20px;
-    height: 42vh;
+    height: 47vh;
     font-size: 1.2em;
     text-align: center;
 }
@@ -277,6 +277,11 @@ footer .fas
     {
         box-shadow: 2px 4px 2px 0px #cbcaca;
     }
+    
+    #article1-bloc
+    {
+        height: 42vh;
+    }
 
     #article1-bloc p 
     {
@@ -315,6 +320,14 @@ footer .fas
     {
         text-align: center;
         margin: 2em 0 0em;
+    }
+
+    #article3-bloc1 .nouveau, #article3-bloc2 .nouveau 
+    {
+        right: auto;
+        margin-top: 2%;
+        margin-left: 35%;
+        padding: 0.5rem 1rem;
     }
 
     #article3-flexcontent
