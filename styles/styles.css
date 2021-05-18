@@ -39,11 +39,6 @@ body
     margin: 0;
 }
 
-#container
-{
-    width: 100%;
-}
-
 #gps
 {
     display: flex;
@@ -102,7 +97,7 @@ body
 #article2 span 
 {
 	position: absolute;
-	left: 2%;
+	margin-left: -89vw;
 	background: #9356DC;
 	border-radius: 50%;
 	color: #f8f5f5;
@@ -114,7 +109,7 @@ body
 {
 	font-size: 1.5em;
 	opacity: 0.5;
-	left: 17vw;
+	left: 6vw;
 	position: absolute;
 }
 
@@ -125,6 +120,7 @@ body
 
 .article2-bloc
 {
+    position: relative;
 	background: #f4f4f4;
 	margin: 4vh 6vw;
 	padding: 2vh;
@@ -151,6 +147,7 @@ body
 #article3-bloc1, #article3-bloc2, #article3-bloc3, #article3-bloc4
 {
     margin-bottom: 3vh;
+    position: relative;
 }
 
 .article3-img
@@ -169,13 +166,13 @@ body
 
 #article3-bloc1 .nouveau, #article3-bloc2 .nouveau
 {
-   background: #99E2D0;
-	position: absolute;
-	right: 7%;
-	margin-top: 2%;
-	color: #2fa487;
-	padding: 0.5rem 1rem;
+    background: #99E2D0;
+    margin-top: 2%;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    color: #2fa487;
 	border-radius: 5px;
+    right: 21px;
 }
 
 .article3-legende 
@@ -237,19 +234,15 @@ footer .fas
     width: 1em;
 }
 
-@media screen and (min-width: 799px)
-{
-    #article2 span 
-    {
-        left: 4%;
-    }
-}
-
 @media screen and (min-width: 1280px)
 {
-    #article2 span 
+
+    #container
     {
-        left: 5%;
+        max-width: 1440px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
     }
 
     #article1-bloc span 
@@ -273,11 +266,6 @@ footer .fas
         margin-top: 2px;
     }
 
-    #logo
-    {
-        box-shadow: 2px 4px 2px 0px #cbcaca;
-    }
-    
     #article1-bloc
     {
         height: 42vh;
@@ -297,19 +285,18 @@ footer .fas
     .article2-bloc 
     {
         width: 26%;
-        margin-right: -3em;
+        margin-right: -2em;
     }
 
     #article2 .fas
     {
         position: relative;
-        left: -4vw;
+        left: -3vw;
     }
 
     #article2 span 
     {
-        left: -7vw;
-        position: relative;
+        margin-left: -100%;
     }
 
     #article2 p {
@@ -320,14 +307,6 @@ footer .fas
     {
         text-align: center;
         margin: 2em 0 0em;
-    }
-
-    #article3-bloc1 .nouveau, #article3-bloc2 .nouveau 
-    {
-        right: auto;
-        margin-top: 2%;
-        margin-left: 35%;
-        padding: 0.5rem 1rem;
     }
 
     #article3-flexcontent
