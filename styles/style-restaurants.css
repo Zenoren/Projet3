@@ -161,7 +161,13 @@ section .commander
 	width: 8.5em;
 	margin: 2vh 0vw 7vh 15vw;
 	cursor: pointer;
-	box-shadow: 3px 3px 3px #D0D0D0;
+	box-shadow: 3px 4px 5px 0 #beb7b7;
+}
+
+section .commander:hover
+{
+    background: linear-gradient(0deg,#9e70d6, #eb92d1);
+    box-shadow: 4px 5px 6px 2px #cac6c6;
 }
 
 footer
@@ -191,6 +197,11 @@ footer ul
     line-height: 1.6;
 }
 
+footer a
+{
+    color: white;
+}
+
 footer .fas
 {
     font-size: 0.7em;
@@ -200,7 +211,7 @@ footer .fas
 
 @media screen and (min-width: 600px)
 {
-    
+
     section .commander 
     {
         width: 50%;

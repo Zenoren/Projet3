@@ -87,6 +87,13 @@ body
     padding: 16px;
     background: linear-gradient(0deg, #9356DC, #FF79DA);
     color: white;
+    box-shadow: 0px 3px 4px 2px #bfbdbd;
+}
+
+#article1-bloc span:hover
+{
+    background: linear-gradient(0deg,#9e70d6, #eb92d1);
+    box-shadow: 0px 3px 6px 2px #cac6c6;
 }
 
 #article2 h2
@@ -194,6 +201,19 @@ body
     font-size: 1.7em;
 }
 
+.article3-legende .fas
+{
+    background: palevioletred;
+    opacity: 0;
+    transform: opacity(0);
+    transition: transform 800ms;
+}
+
+.article3-legende .fas:hover
+{
+    transform: opacity(1);
+}
+
 .article3-legende strong
 {
     font-weight: bold;
@@ -227,6 +247,11 @@ footer ul
     line-height: 1.6;
 }
 
+footer a 
+{
+    color: white;
+}
+
 footer .fas
 {
     font-size: 0.7em;
@@ -243,12 +268,6 @@ footer .fas
         display: flex;
         margin: auto;
         flex-direction: column;
-    }
-
-    #article1-bloc span 
-    {
-        padding: 18px;
-        font-size: 1.3em;
     }
 
     #article1
@@ -276,6 +295,12 @@ footer .fas
         margin-bottom: 50px;
     }
 
+    #article1-bloc span 
+    {
+        padding: 18px;
+        font-size: 1.3em;
+    }
+
     .article2-blocs
     {
         display: flex;
@@ -287,6 +312,7 @@ footer .fas
         width: 26%;
         margin-right: -2em;
     }
+    
 
     #article2 .fas
     {
@@ -314,6 +340,11 @@ footer .fas
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .article3-legende .heart 
+    {
+        padding-right: 2vw;
     }
 
     #article3-bloc1, #article3-bloc2, #article3-bloc3, #article3-bloc4
