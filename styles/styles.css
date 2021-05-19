@@ -198,20 +198,30 @@ body
 {
     position: relative;
     padding-right: 6vw;
-    font-size: 1.7em;
+    font-size: 2vw;
 }
 
-.article3-legende .fas
+.article3-legende .empty-heart
 {
-    background: palevioletred;
+    position: relative;
+}
+
+.article3-legende .full-heart
+{
+    right: 1em;
+    bottom: 3.5px;
+    position: absolute;
     opacity: 0;
-    transform: opacity(0);
-    transition: transform 800ms;
+    background: linear-gradient(#FF79DA, #9356DC);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.article3-legende .fas:hover
+.article3-legende .full-heart:hover
 {
-    transform: opacity(1);
+    transition: 800ms ease-in-out;
+    opacity: 1;
 }
 
 .article3-legende strong
