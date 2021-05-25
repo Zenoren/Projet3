@@ -190,6 +190,8 @@ body
     justify-content: flex-end;
     position: relative;
     bottom: 1.2em;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .menu-content p
@@ -201,10 +203,25 @@ body
     font-size: 0.9em;
 }
 
-.menu-content span
+.menu-content .bouton-vert
 {
-    font-weight: bold;
-    font-size: 1.1em;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+    background: #99E2D0;
+    padding: 29px 20px 27px 31px;
+    bottom: 4.7em;
+    left: 21em;
+    width: 0;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    transform: scaleX(0);
+    transition: transform 500ms ease-in-out;
+}
+
+.menu-content:hover .bouton-vert {
+	transform: scaleX(1);
+	transform-origin: center right;
 }
 
 section .commander 
