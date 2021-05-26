@@ -181,14 +181,14 @@ body
 
 .menu-content .menu-texte
 {
-    overflow-x: clip;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     width: 87%;
+    white-space: nowrap;
 }
 
-.menu-content .menu-texte p
+.menu-content p
 {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
     font-size: 0.9em;
 }
 
