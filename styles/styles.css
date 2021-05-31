@@ -280,8 +280,8 @@ body
     opacity: 0;
     background: linear-gradient(#FF79DA, #9356DC);
     background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .article3-legende .full-heart:hover

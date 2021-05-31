@@ -112,8 +112,8 @@ body
     opacity: 0;
     background: linear-gradient(#FF79DA, #9356DC);
     background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     right: 0em;
     bottom: 4px;   
 }
@@ -139,16 +139,16 @@ body
 
 .menu-content 
 {
-    display: flex;
-    justify-content: space-between;
-    height: 2.4em;
+	display: flex;
+	justify-content: space-between;
+	height: 2.4em;
 	background: white;
-	margin: 3vh 0vw;
-	padding: 1em 1em;
+	margin: 5vh 0 5vh 0;
 	border-radius: 15px;
 	box-shadow: 0px 3px 6px 2px #d5d4d4;
 	cursor: pointer;
-    animation: cascade ease-in 1s;
+	animation: cascade ease-in 1s;
+	padding: 16px 0px 16px 10px;
 }
 
 @keyframes cascade
@@ -181,41 +181,44 @@ body
 
 .menu-content .menu-texte
 {
-    width: 87%;
+    width: 84%;
+    text-overflow: ellipsis;
     white-space: nowrap;
+    overflow: hidden;
 }
+
 
 .menu-content p
 {
-    overflow-x: hidden;
     text-overflow: ellipsis;
-    font-size: 0.9em;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.menu-content span
-{    
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-right: 1em;
+.menu-content span 
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-right: 0.5em;
 }
 
 .menu-content .bouton-vert
 {
 	display: flex;
     align-items: center;
+    position: relative;
 }
 
 .menu-content .bouton-cache 
 {
 	width: 0;
 	background: #99E2D0;
-	border-radius: 0 20px 20px 0;
+	border-radius: 0 17px 17px 0;
 	color: #fff;
     transform: scaleX(0);
     overflow: hidden;
     transition: transform 500ms ease-in-out;
     transform-origin: center right;
-    margin-right: -1.1em;
 }
 
 .menu-content:hover .bouton-cache {
@@ -325,10 +328,10 @@ footer .fas
         height: 43vw;
     }
 
-    .menu1
+    .menu1 
     {
-        width: 30vw;
-        padding: 0vh 1vw 0vh 1vw;
+        width: 29%;
+        padding: 0vh 2vw 0vh 1vw;
     }
 
     #menu-flex
