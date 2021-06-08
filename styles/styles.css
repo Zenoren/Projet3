@@ -116,18 +116,18 @@ body
     box-shadow: 2px 4px 2px 7px #cbcaca;
 }
 
-#article1 .fas 
+#premier-bloc .fas 
 {
     line-height: 48px;
     margin-right: 20px;
 }
 
-#article1 p, #article1 .fas
+#premier-bloc p, #premier-bloc .fas
 {
     opacity: 0.7;
 }
 
-#article1-bloc
+#premier-bloc-contenu
 {
 	background: #f4f4f4;
     padding-top: 20px;
@@ -136,39 +136,40 @@ body
     text-align: center;
 }
 
-#article1-bloc h2 
+#premier-bloc-contenu h2 
 {
     padding: 0.8em;
 }
 
-#article1-bloc p
+#premier-bloc-contenu p
 {
     margin-bottom: 42px;
     color: #807979;
 }
 
-#article1-bloc span
+#premier-bloc-contenu span
 {
-    border: 1px solid;
+    border: 0px;
     border-radius: 50px;
     padding: 16px;
     background: linear-gradient(0deg, #9356DC, #FF79DA);
     color: white;
-    box-shadow: 0px 3px 4px 2px #bfbdbd;
+    box-shadow: 0px 2px 4px 2px #bfbdbd;
+    font-family: "Shrikhand", arial, sans-serif;
 }
 
-#article1-bloc span:hover
+#premier-bloc-contenu span:hover
 {
     background: linear-gradient(0deg,#9e70d6, #eb92d1);
     box-shadow: 0px 3px 6px 2px #cac6c6;
 }
 
-#article2 h2
+#fonctionnement h2
 {
     margin-left: 26px;
 }
 
-#article2 span 
+#fonctionnement span 
 {
 	position: absolute;
 	margin-left: -89vw;
@@ -179,7 +180,7 @@ body
 	padding: 3px 11px 3px 11px;
 }
 
-#article2 .fas
+#fonctionnement .fas
 {
 	font-size: 1.5em;
 	opacity: 0.5;
@@ -187,12 +188,12 @@ body
 	position: absolute;
 }
 
-#article2 p
+#fonctionnement p
 {
     font-weight: bold;
 }
 
-.article2-bloc
+.fonctionnement-bloc
 {
     position: relative;
 	background: #f4f4f4;
@@ -206,31 +207,36 @@ body
 	box-shadow: 0px 5px 10px 2px #d8d7d7;
 }
 
-.article2-bloc:hover
+.fonctionnement-bloc:hover
 {
 	background-color: #e4d5f6;
 	box-shadow: 0px 5px 10px 2px #a6a3a3;
 }
 
-#article3 
+.fonctionnement-bloc:hover .fas
+{
+    color: #9356DC;
+}
+
+#restaurants
 {
     background: #f4f4f4 ;
     padding: 3vh 5vw;
 }
 
-#article3-bloc1, #article3-bloc2, #article3-bloc3, #article3-bloc4
+#restaurants-bloc1, #restaurants-bloc2, #restaurants-bloc3, #restaurants-bloc4
 {
     margin-bottom: 3vh;
     position: relative;
 }
 
-.article3-img
+.restaurants-img
 {
     width: 100%;
     height: 30vh;
 }
 
-#article3 img
+#restaurants img
 {
     width: 100%;
     height: 100%;
@@ -238,7 +244,7 @@ body
     border-radius: 13px 13px 0 0;
 }
 
-#article3-bloc1 .nouveau, #article3-bloc2 .nouveau
+#restaurants-bloc1 .nouveau, #restaurants-bloc2 .nouveau
 {
     background: #99E2D0;
     margin-top: 2%;
@@ -247,9 +253,10 @@ body
     color: #2fa487;
 	border-radius: 5px;
     right: 21px;
+    font-family: "Roboto", arial, sans-serif;
 }
 
-.article3-legende 
+.restaurants-legende 
 {
 	display: flex;
     justify-content: space-between;
@@ -260,19 +267,19 @@ body
 	box-shadow: 0px 0px 8px 3px #d8d7d7;
 }
 
-.article3-legende .heart
+.restaurants-legende .heart
 {
     position: relative;
     padding-right: 6vw;
-    font-size: 2vw;
+    font-size: 1.5em;
 }
 
-.article3-legende .empty-heart
+.restaurants-legende .empty-heart
 {
     position: relative;
 }
 
-.article3-legende .full-heart
+.restaurants-legende .full-heart
 {
     right: 1em;
     bottom: 3.5px;
@@ -284,16 +291,17 @@ body
     color: transparent;
 }
 
-.article3-legende .full-heart:hover
+.restaurants-legende .full-heart:hover
 {
     transition: 800ms ease-in-out;
     opacity: 1;
 }
 
-.article3-legende strong
+.restaurants-legende strong
 {
     font-weight: bold;
     font-size: 1.2em;
+    font-family: "Shrikhand", arial, sans-serif;
 }
 
 footer
@@ -326,6 +334,7 @@ footer ul
 footer a 
 {
     color: white;
+    font-family: "Shrikhand", arial, sans-serif;
 }
 
 footer .fas
@@ -346,7 +355,7 @@ footer .fas
         flex-direction: column;
     }
 
-    #article1
+    #premier-bloc
     {
         width: 60%;
         padding: 0 20%;
@@ -361,69 +370,70 @@ footer .fas
         margin-top: 2px;
     }
 
-    #article1-bloc
+    #premier-bloc-contenu
     {
         height: 42vh;
     }
 
-    #article1-bloc p 
+    #premier-bloc-contenu p 
     {
         margin-bottom: 50px;
     }
 
-    #article1-bloc span 
+    #premier-bloc-contenu span 
     {
         padding: 18px;
         font-size: 1.3em;
     }
 
-    .article2-blocs
+    .fonctionnement-blocs
     {
         display: flex;
         margin-bottom: 2em;
     }
 
-    .article2-bloc 
+    .fonctionnement-bloc
     {
         width: 26%;
         margin-right: -2em;
     }
     
 
-    #article2 .fas
+    #fonctionnement .fas
     {
         position: relative;
         left: -3vw;
     }
 
-    #article2 span 
+    #fonctionnement span 
     {
         margin-left: -100%;
     }
 
-    #article2 p {
+    #fonctionnement p {
         font-size: 1.1em;
     }
 
-    #article2 h2 
+    #fonctionnement h2 
     {
         text-align: center;
         margin: 2em 0 0em;
     }
 
-    #article3-flexcontent
+    #restaurants-flexcontent
     {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .article3-legende .heart 
+    .restaurants-legende .heart 
     {
         padding-right: 2vw;
+        font-size: 2vw;
     }
 
-    #article3-bloc1, #article3-bloc2, #article3-bloc3, #article3-bloc4
+    #restaurants-bloc1, #restaurants-bloc2, #restaurants-bloc3, #restaurants-bloc4
     {
         min-width: 48%;
     }
