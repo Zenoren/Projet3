@@ -270,7 +270,7 @@ body
 
 .restaurants-legende .heart 
 {
-	margin-right: 1em;
+	margin-right: 1.5em;
 	font-size: 1.8em;
 	padding-bottom: 1em;
     position: relative;
@@ -398,7 +398,6 @@ footer .fas
         margin-right: -2em;
     }
     
-
     #fonctionnement .fas
     {
         position: relative;
