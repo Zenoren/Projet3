@@ -11,14 +11,14 @@
     font-style: normal;
 }
 
-h2 /*  logo et titres */
+h2, h1, h5 /*  logo et titres */
 {
-    font-family: "Shrikhand", arial, sans-serif;
+    font-family: "Shrikhand";
 } 
 
 p /* texte */
 {
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Roboto";
 }
 
 a
@@ -76,6 +76,7 @@ body
     background: #FFF;
     animation: disapear forwards;
     animation-delay: 2s;
+    top: 0;
 }
     
 .spinner-content 
@@ -248,12 +249,12 @@ body
 {
     background: #99E2D0;
     margin-top: 2%;
-    padding: 0.5rem 1rem;
+    padding: 1em 1em;
     position: absolute;
     color: #2fa487;
 	border-radius: 5px;
     right: 21px;
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Roboto";
 }
 
 .restaurants-legende 
@@ -267,22 +268,21 @@ body
 	box-shadow: 0px 0px 8px 3px #d8d7d7;
 }
 
-.restaurants-legende .heart
+.restaurants-legende .heart 
 {
+	margin-right: 1em;
+	font-size: 1.8em;
+	padding-bottom: 1em;
     position: relative;
-    padding-right: 6vw;
-    font-size: 1.5em;
 }
 
 .restaurants-legende .empty-heart
 {
-    position: relative;
+    position: absolute;
 }
 
 .restaurants-legende .full-heart
 {
-    right: 1em;
-    bottom: 3.5px;
     position: absolute;
     opacity: 0;
     background: linear-gradient(#FF79DA, #9356DC);
@@ -301,7 +301,7 @@ body
 {
     font-weight: bold;
     font-size: 1.2em;
-    font-family: "Shrikhand", arial, sans-serif;
+    font-family: "Shrikhand";
 }
 
 footer
@@ -334,7 +334,7 @@ footer ul
 footer a 
 {
     color: white;
-    font-family: "Shrikhand", arial, sans-serif;
+    font-family: "Shrikhand";
 }
 
 footer .fas
@@ -429,8 +429,8 @@ footer .fas
 
     .restaurants-legende .heart 
     {
-        padding-right: 2vw;
         font-size: 2vw;
+        margin-right: 2em;
     }
 
     #restaurants-bloc1, #restaurants-bloc2, #restaurants-bloc3, #restaurants-bloc4

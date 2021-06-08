@@ -2,7 +2,9 @@
 @font-face
 {
     font-family: "Shrikhand";
-    src: url('fonts/shrikhand/Shrikhand-Regular.otf') format('truetype');
+    src: url('fonts/shrikhand/Shrikhand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
     font-family: "Roboto";
     src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
@@ -15,7 +17,7 @@
 
 h2, h3 /*  logo et titres */
 {
-    font-family: "Shrikhand", arial, sans-serif;
+    font-family: "Shrikhand";
 } 
 
 h3
@@ -25,7 +27,7 @@ h3
 
 p /* texte */
 {
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Roboto";
     margin: 0;
 }
 
@@ -125,7 +127,6 @@ body
 #titre-restaurant h2
 {
     font-size: 2em;
-    font-style: italic;
 }
 
 .titre-menu
@@ -183,6 +184,7 @@ body
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-size: 0.9em;
 }
 
 .menu-content p, .menu-content h3
@@ -280,7 +282,7 @@ footer ul
 footer a
 {
     color: white;
-    font-family: "Shrikhand", arial, sans-serif;
+    font-family: "Shrikhand";
 }
 
 footer .fas
