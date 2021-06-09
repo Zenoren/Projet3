@@ -1,4 +1,4 @@
-@font-face
+/* @font-face
 {
     font-family: "Shrikhand";
     src: url('fonts/shrikhand/Shrikhand-Regular.otf') format('truetype');
@@ -9,17 +9,18 @@
     src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+} */
+
+body
+{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
-h2, h3, h1, h5 /*  logo et titres */
+h2, h1, h5
 {
-    font-family: "Shrikhand";
+    font-family: 'Shrikhand', cursive;
 } 
-
-p /* texte */
-{
-    font-family: "Roboto";
-}
 
 a
 {
@@ -140,6 +141,8 @@ body
 #premier-bloc-contenu h2 
 {
     padding: 0.8em;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
 }
 
 #premier-bloc-contenu p
@@ -156,7 +159,6 @@ body
     background: linear-gradient(0deg, #9356DC, #FF79DA);
     color: white;
     box-shadow: 0px 2px 4px 2px #bfbdbd;
-    font-family: "Shrikhand";
 }
 
 #premier-bloc-contenu span:hover
@@ -168,6 +170,8 @@ body
 #fonctionnement h2
 {
     margin-left: 26px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
 }
 
 #fonctionnement span 
@@ -223,6 +227,11 @@ body
 {
     background: #f4f4f4 ;
     padding: 3vh 5vw;
+}
+
+#restaurants h2
+{
+    font-family: Roboto, sans-serif;
 }
 
 #restaurants-bloc1, #restaurants-bloc2, #restaurants-bloc3, #restaurants-bloc4
@@ -301,7 +310,6 @@ body
 {
     font-weight: bold;
     font-size: 1.2em;
-    font-family: "Shrikhand";
 }
 
 footer
@@ -334,7 +342,7 @@ footer ul
 footer a 
 {
     color: white;
-    font-family: "Shrikhand";
+    font-family: Roboto, sans serif;
 }
 
 footer .fas
