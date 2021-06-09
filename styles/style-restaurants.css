@@ -15,7 +15,7 @@
     src: url('fonts/roboto/RobotoCondensed-BoldItalic.ttf') format('truetype');
 }
 
-h2, h3 /*  logo et titres */
+h2, h3, button /*  logo et titres */
 {
     font-family: "Shrikhand";
 } 
@@ -127,6 +127,7 @@ body
 #titre-restaurant h2
 {
     font-size: 1.7em;
+    font-style: italic;
 }
 
 .titre-menu
@@ -297,8 +298,8 @@ footer .fas
 
     section .commander 
     {
-        width: 50%;
-        margin: 2vh 0vw 7vh 25%;
+        width: 32%;
+        margin: 3vh 0vw 7vh 32%;
     }
 
     footer #image 
